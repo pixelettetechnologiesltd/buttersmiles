@@ -1,0 +1,12 @@
+.carousel-control-prev-icon{
+    display: none;
+}
+.carousel-indicators [data-bs-target]{
+    background-color: black;
+}
+.carousel-indicators{
+    margin-bottom: -2rem;
+}
+.carousel-control-next-icon{
+    display: none;
+}

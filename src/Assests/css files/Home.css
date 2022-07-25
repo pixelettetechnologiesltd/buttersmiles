@@ -1,0 +1,269 @@
+.marg-top-100 {
+    margin-top: 100px;
+}
+
+.bg-img {
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+
+}
+
+.pixi-home-para-black-cent {
+    color: #0C0D0E;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.padd-bott-100 {
+    padding-bottom: 100px;
+}
+
+.padd-top-50 {
+    padding-top: 100px;
+}
+
+.team-border {
+    border: 1px solid #EDEDED;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.team-border-right {
+    border: 1px solid #EDEDED;
+    padding: 30px 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.team-name {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+}
+
+.team-name-center {
+    font-family: Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23px;
+    text-align: center;
+}
+
+.team-team-desig-center {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: center;
+}
+
+.team-team-desig {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.pixi-home-para-black {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #0C0D0E;
+    text-align: left;
+}
+
+.img-cent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.marg-set {
+    margin-left: 20px;
+}
+
+.marg-set-right {
+    margin-right: 20px;
+}
+
+.home-sub-head {
+    font-family: Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+}
+
+.padd-right-50 {
+    padding-right: 100px;
+}
+
+.black-bg {
+    background-color: black;
+    padding: 30px;
+}
+
+.copyright {
+    font-family: Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+
+.road-months {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #0C0D0E;
+    transform: rotate(270deg);
+    margin-right: -50px;
+    margin-top: -30px;
+}
+
+.set-month {
+    margin-top: 170px;
+}
+
+.set-month-more {
+    margin-top: 190px;
+}
+
+.marg-top-45 {
+    margin-top: 40px;
+}
+
+.list-head {
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 18px;
+    color: #0C0D0E;
+}
+
+.list-item-type {
+    font-family: Helvetica;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    color: #0C0D0E;
+}
+
+.roadmap-bg {
+    background-image: url(../images/roadmapbg.png);
+    background-position: center left;
+    background-size: 75%;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+.about-padding {
+    padding: 0px 100px;
+}
+
+.padd-left-right-50 {
+    padding: 0px 190px;
+}
+
+.pixi-home-head-black-45 {
+    color: #0C0D0E;
+    font-family: "Helvetica";
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 55px;
+    text-align: center;
+}
+
+@media screen and (max-width:1000px) {
+    .padd-right-50 {
+        padding-right: 0px;
+    }
+
+    .img-for-mbl {
+        width: 100%;
+    }
+
+    .padd-top-50 {
+        padding-top: 0px;
+    }
+
+    .road-img-mbl-set {
+        width: 100%;
+    }
+
+    .roadmap-bg {
+        background-image: url(../images/roadmapbg.png);
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-bottom: 100px;
+    }
+
+    .set-month {
+        margin-top: 33vh;
+    }
+
+    .set-month-more {
+        margin-top: 210px;
+    }
+
+    .marg-top-mbl-road {
+        margin-top: 80px;
+    }
+
+    .road-months {
+        margin-right: -20px;
+    }
+
+    /* .marg-top-150 {
+        margin-top: 80px;
+    } */
+
+    .set-month-for-mobile {
+        margin-top: 10px;
+    }
+
+    .about-padding {
+        padding: 0px 0px;
+    }
+
+    .padd-left-right-50 {
+        padding: 0px 0px;
+    }
+
+    .pixi-home-para-black-cent {
+        padding: 20px;
+    }
+
+    .team-width-for-mbl {
+        width: 100px;
+    }
+
+    .team-border {
+        padding: 20px 10px;
+    }
+
+    .team-border-right {
+        padding: 20px 10px;
+    }
+
+    .pixi-home-head-black-45 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+}

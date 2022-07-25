@@ -1,0 +1,67 @@
+.form-blue-bg{
+    background-color: #D0CEF5;
+    margin-top:150px;
+    padding: 70px 130px;
+}
+.from-black-head{
+    font-family: Helvetica;
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 85px;
+    color:#0C0D0E;
+}
+.form-spam-text{
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    margin-top: 20px;
+    color:#343448;
+}
+.form-email-left{
+    font-family:Helvetica;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color:#151515;
+}
+.form-bg{
+    background-color: #FFFFFF;
+    padding: 45px 55px;
+}
+.get-in-touch{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 39px;
+    color:#243543;
+}
+input{
+    width: 100%;
+    padding: 25px;
+    background-color: #F4F4F4;
+    border: none;
+    margin: 10px;
+}
+.form-button{
+    background-color: #D0CEF5;
+    padding:25px 0px;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 23px;
+    text-align: center;
+}
+.form-dic-padding{
+    padding: 40px;
+}
+@media screen and (max-width:1000px) {
+    .form-blue-bg{
+        background-color: #D0CEF5;
+        margin-top:150px;
+        padding: 70px 0px;
+    }
+        .form-dic-padding{
+            padding: 20px;
+        }
+}
