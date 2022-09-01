@@ -263,7 +263,7 @@ const Home = () => {
         </Row>
       </Container>
       <Form/>
-      <Container className="bg-img">
+      <Container>
         <Row className="marg-top-150 padd-top-50">
           <Col md={2}></Col>
           <Col md={8}>
@@ -284,7 +284,7 @@ const Home = () => {
         <Row>
           <Col md={12}>
             <p className="copyright">
-              Copyright © Pixiflies.com all rights reserved.
+              Copyright © buttersmiles.com all rights reserved.
             </p>
           </Col>
         </Row>
