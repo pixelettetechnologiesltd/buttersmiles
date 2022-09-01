@@ -14,7 +14,7 @@ function BasicExample() {
       <section className='bg-for-header' id='home'>
     <Navbar className='bg-color-header sticky-menu' bg="light" expand="lg" >
       <Container>
-        <Navbar.Brand href="#home">PixiFlies.</Navbar.Brand>
+        <Navbar.Brand href="#home">Buttersmiles</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -33,7 +33,7 @@ function BasicExample() {
         <Row>
             <Col md={3}></Col>
             <Col md={6} className="padd-left-right" >
-                <p className='pixi-home-head-black'>PixiFlies <span className='font-size-for-mbl' style={{fontSize:"72px", fontWeight:"700"}}>10K.</span></p>
+                <p className='pixi-home-head-black'>Buttersmiles <span className='font-size-for-mbl' style={{fontSize:"72px", fontWeight:"700"}}>10K.</span></p>
                 <p className='pixi-home-para-black-cent'>Generative art collection featuring women of diverse backgrounds with a wide selection of colorful, fun attributes.</p>
                 <button className='pixi-button'><a className='text-dec' href=''>View on OpenSea</a></button>
             </Col>
