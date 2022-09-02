@@ -264,7 +264,7 @@ const Home = () => {
       </Container>
       <Form/>
       <Container>
-        <Row className="marg-top-150 padd-top-50">
+        <Row className="marg-top-150 ">
           <Col md={2}></Col>
           <Col md={8}>
             <p className="pixi-home-head-black">Frequently Ask Questions</p>
@@ -281,13 +281,20 @@ const Home = () => {
         </Row>
       </Container>
       <section className="black-bg">
+        <Container>
         <Row>
-          <Col md={12}>
+          <Col md={6}>
             <p className="copyright">
-              Copyright © buttersmiles.com all rights reserved.
+              Copyright © Buttersmiles.com all rights reserved.
+            </p>
+          </Col>
+          <Col md={6}>
+            <p className="copyright-right">
+              Powered by Pixelette Technologies
             </p>
           </Col>
         </Row>
+        </Container>
       </section>
     </div>
   );
