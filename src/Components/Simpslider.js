@@ -14,12 +14,22 @@ const Simpslider = (props) => {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src={props.image} width="100%" alt="slide-3"
+          src={props.image2} width="100%" alt="slide-3"
         />
       </Carousel.Item>
       <Carousel.Item>
         <img
-           src={props.image1} width="100%" alt="slide-4"
+           src={props.image5} width="100%" alt="slide-5"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+           src={props.image6} width="100%" alt="slide-6"
+        />
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+           src={props.image7} width="100%" alt="slide-7"
         />
       </Carousel.Item>
     </Carousel>
