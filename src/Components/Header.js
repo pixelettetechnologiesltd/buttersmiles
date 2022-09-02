@@ -6,6 +6,7 @@ import Navbar from 'react-bootstrap/Navbar';
 import {Row, Col, Image} from 'react-bootstrap';
 import {images} from "../Images";
 import Simpslider from './Simpslider';
+import Simpslider2 from './Simpslider2';
 
 function BasicExample() {
 
@@ -14,7 +15,7 @@ function BasicExample() {
       <section className='bg-for-header' id='home'>
     <Navbar className='bg-color-header sticky-menu' bg="light" expand="lg" >
       <Container>
-        <Navbar.Brand href="#home">Buttersmiles</Navbar.Brand>
+        <Navbar.Brand href="#home"><Image src={images.logo} width="50%"/></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
@@ -47,10 +48,10 @@ function BasicExample() {
         <Row>
           <Col md={2}></Col>
           <Col md={4} className="slider-set">
-            <Simpslider image={images.slide1} image1={images.slide2} />
+            <Simpslider image={images.slide1} image1={images.slide2}  image2={images.slide5} image5={images.slide6} image6={images.slide7} image7={images.slide8}/>
           </Col>
           <Col md={4} className="slider-set">
-          <Simpslider image={images.slide2}  image1={images.slide1}/>
+          <Simpslider2 image8={images.slide9}  image9={images.slide10} image10={images.slide11} image11={images.slide12} image12={images.slide13} image13={images.slide14}/>
           </Col>
           <Col md={2}></Col>
         </Row>
