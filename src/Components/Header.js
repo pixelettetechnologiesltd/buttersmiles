@@ -32,13 +32,13 @@ function BasicExample() {
 
     <Container className="give-head-marg-top">
         <Row>
-            <Col md={3}></Col>
-            <Col md={6} className="padd-left-right" >
+            <Col md={2}></Col>
+            <Col md={7} className="padd-left-right" >
                 <p className='pixi-home-head-black'>Buttersmiles <span className='font-size-for-mbl' style={{fontSize:"72px", fontWeight:"700"}}>10K.</span></p>
-                <p className='pixi-home-para-black-cent'>Generative art collection featuring women of diverse backgrounds with a wide selection of colorful, fun attributes.</p>
+                <p className='pixi-home-para-black-cent'>Dive into a vibrant collection of generative art, where each NFT is a unique Butterfly ready to spread its wings in the digital realm. These digital butterflies symbolize metamorphosis and a celebration of color, bringing a fresh, lively essence to the crypto-art space.</p>
                 <button className='pixi-button'><a className='text-dec' href=''>View on OpenSea</a></button>
             </Col>
-            <Col md={2}></Col>
+            <Col md={1}></Col>
             <Col md={1} className="flex-col">
               <Image className='mt-3 head-icon' src={images.twithead} width="30px"></Image>
               <Image className='mt-3 head-icon' src={images.descordhead} width="30px"></Image>

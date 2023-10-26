@@ -9,30 +9,28 @@ const Home = () => {
   return (
     <div>
       <Header />
-      <Container className="marg-top-150" id="about">
+      <Container className="marg-top-150">
         <Row>
-          <Col md={3}></Col>
-          <Col md={6} className="about-padding">
-            <p className="pixi-home-head-black">About Us</p>
+          <Col md={1}></Col>
+          <Col md={10} className="about-padding">
+            <p className="pixi-home-head-black"  id="about">About Us</p>
             <p className="pixi-home-para-black-cent">
-              Generative art collection featuring women of diverse backgrounds
-              with a wide selection of colorful, fun attributes.
+            Buttersmiles 10K transcends the ordinary to bring forth a captivating generative art collection. Our NFTs showcase a diverse kaleidoscope of digital butterflies, each embodying a unique blend of color, form, and flight. This initiative is not just about creating digital art, but also about building a community where creativity, innovation, and inclusivity flourish. As we near our launch, we invite you to flutter along on this exciting journey where every butterfly tells a story, and every story is a testament to the boundless realm of digital creativity.
             </p>
           </Col>
-          <Col md={3}></Col>
+          <Col md={1}></Col>
         </Row>
       </Container>
-      <Container id="team">
+      <Container>
         <Row className="marg-top-150">
-          <Col md={2}></Col>
-          <Col md={8} className="padd-left-right-50">
-            <p className="pixi-home-head-black">Meet The Team</p>
+          <Col md={1}></Col>
+          <Col md={10} className="padd-left-right-50">
+            <p className="pixi-home-head-black"  id="team">Meet The Team</p>
             <p className="pixi-home-para-black-cent">
-              Generative art collection featuring women of diverse backgrounds
-              with a wide selection of colorful, fun attributes.
+              Behind the ethereal beauty of our Butterfly NFTs, there's a team of dedicated creators and developers. We bring together a passion for art, the tech-savvy of blockchain, and a vision to flutter towards a future where digital art and real-world change coalesce.
             </p>
           </Col>
-          <Col md={2}></Col>
+          <Col md={1}></Col>
         </Row>
         <Row>
           <Col md={2}></Col>
@@ -100,10 +98,10 @@ const Home = () => {
           </Col>
           <Col md={2}></Col>
         </Row>
-        <Row className="marg-top-100" id="modsquad">
+        <Row className="marg-top-100">
           <Col md={4}></Col>
           <Col md={4}>
-            <p className="pixi-home-head-black-45">Mod Squad</p>
+            <p className="pixi-home-head-black-45" id="modsquad">Mod Squad</p>
           </Col>
           <Col md={4}></Col>
         </Row>
@@ -146,12 +144,12 @@ const Home = () => {
           </Col>
         </Row>
       </Container>
-      <section className="roadmap-bg" id="roadmap">
+      <section className="roadmap-bg">
         <Container className="marg-top-100">
           <Row>
             <Col md={4}></Col>
             <Col md={4} className="marg-top-100">
-              <p className="pixi-home-head-black">Roadmap</p>
+              <p className="pixi-home-head-black" id="roadmap">Roadmap</p>
             </Col>
             <Col md={4}></Col>
           </Row>
@@ -175,94 +173,61 @@ const Home = () => {
             </Col>
             <Col md={5} sm={10} xs={9} className="marg-top-mbl-road">
               <p className="list-head">
-                Double click into providing value for our community and holders
+                Embarking on a journey to create value for our community and token holders.
               </p>
               <ul>
                 <li className="list-item-type">
-                  Showcase Women Artist Fund artists & conduct community
-                  giveaways
+                  Unveil the Butterfly Artist Fund to spotlight and support talented artists.
                 </li>
-                <li className="list-item-type">Re-open Time Machine Claim</li>
+                <li className="list-item-type">Engage the community in giveaways and special events leading up to the NFT launch.</li>
                 <li className="list-item-type">
-                  Community vote on women artists for upcoming collaborations
-                </li>
-                <li className="list-item-type">
-                  Announce NFT NYC slate of events
+                  Re-open Time Machine Claim with a fresh, butterfly-themed twist.
                 </li>
                 <li className="list-item-type">
-                  Launch Design Collective, as portion of Women Labs
+                  Community voting on artist collaborations for a continual influx of creativity.
                 </li>
                 <li className="list-item-type">
-                  Finalize hiring and new CC Leadership Team
-                </li>
-              </ul>
-              <p className="list-head marg-top-45">
-                Expand pilots into formal programs & offerings
-              </p>
-              <ul>
-                <li className="list-item-type">
-                  Launch limited edition & custom-made CC merch
+                  Announce a line-up of events surrounding NFT NYC, keeping the community engaged and informed.
                 </li>
                 <li className="list-item-type">
-                  Roll out LeadHER programs to support community learning and
-                  growth
+                  Launch Design Collective, as part of our broader Butterfly Labs initiative.
                 </li>
                 <li className="list-item-type">
-                  Formalize IRL Ambassador Program to kick off global events
+                  Establish a robust Leadership Team to steer the project towards exciting horizons.
                 </li>
                 <li className="list-item-type">
-                  Establish affiliate and influencer program
-                </li>
-                <li className="list-item-type">
-                  Engage first Design Collective cohort
-                </li>
-              </ul>
-              <p className="list-head mt-5 ">
-                Expansion into Women Labs ecosystem
-              </p>
-              <ul>
-                <li className="list-item-type">
-                  Time Machine generative collection and new 1/1s
+                  Transition pilot programs into full-fledged offerings, providing more avenues for community involvement.
                 </li>
               </ul>
             </Col>
           </Row>
         </Container>
       </section>
-      <Container id="labs">
+      <Container>
         <Row className="marg-top-150">
           <Col md={3}></Col>
           <Col md={6}>
-            <p className="pixi-home-head-black">Butterfly Labs</p>
+            <p className="pixi-home-head-black" id="labs">Butterfly Labs</p>
             <p className="home-sub-head">Coming soon...</p>
           </Col>
           <Col md={3}></Col>
         </Row>
         <Row className="mt-4">
-          <Col md={5}>
+          <Col md={6}>
             <Image className="img-for-mbl" src={images.lab} width="85%"></Image>
           </Col>
-          <Col md={1}></Col>
+          {/* <Col md={1}></Col> */}
           <Col md={6}>
             <p className="pixi-home-para-black padd-right-50 mt-5">
-              Our Crypto Chicks ecosystem will be expanding to Women Labs - an
-              organization designed to enable and empower women throughout our
-              web3 journeys.
+            We're not just stopping at NFTs. Butterfly Labs is our initiative to foster a thriving ecosystem around our NFT project. Whether you're an artist, a blockchain enthusiast, or someone with a revolutionary idea waiting to take flight, Butterfly Labs is your launchpad.
             </p>
             <p className="pixi-home-para-black padd-right-50 mt-4">
-              Whether you're a creative looking to test the web3 waters, a stay
-              at home mom with a genius project idea, an experienced web3
-              explorer looking to give back, or a fashion designer wondering how
-              web3 fashion works...
-            </p>
-            <p className="pixi-home-para-black padd-right-50 mt-4">
-              ​Check back later for more outfit change teasers on what to expect
-              from our Women Labs expansion
+            We invite you to flutter along with us into a future where creativity knows no bounds. Stay tuned for more teasers on what to expect from our Butterfly Labs expansion.
             </p>
           </Col>
         </Row>
       </Container>
-      <Form/>
+      <Form />
       <Container>
         <Row className="marg-top-150 ">
           <Col md={2}></Col>
@@ -272,28 +237,25 @@ const Home = () => {
           <Col md={2}></Col>
         </Row>
         <Row className="marg-top-50  padd-bott-100">
-          <Col md={6}>
-            <Accordian />
-          </Col>
-          <Col md={6}>
+          <Col md={12}>
             <Accordian />
           </Col>
         </Row>
       </Container>
       <section className="black-bg">
         <Container>
-        <Row>
-          <Col md={6}>
-            <p className="copyright">
-              Copyright © Buttersmiles.com all rights reserved.
-            </p>
-          </Col>
-          <Col md={6}>
-            <p className="copyright-right">
-              Powered by Pixelette Technologies
-            </p>
-          </Col>
-        </Row>
+          <Row>
+            <Col md={6}>
+              <p className="copyright">
+                Copyright © Buttersmiles.com all rights reserved.
+              </p>
+            </Col>
+            <Col md={6}>
+              <p className="copyright-right">
+                Powered by Pixelette Technologies
+              </p>
+            </Col>
+          </Row>
         </Container>
       </section>
     </div>

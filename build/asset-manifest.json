@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab05b7e5.css",
+    "main.js": "/static/js/main.4ef2b6c2.js",
+    "static/js/787.962c3fdf.chunk.js": "/static/js/787.962c3fdf.chunk.js",
+    "static/media/roadmapbg.png": "/static/media/roadmapbg.d414624be7723076d349.png",
+    "static/media/headerbg.png": "/static/media/headerbg.6f0df50eb17092b381c0.png",
+    "static/media/bg.png": "/static/media/bg.5c430aee81415ed3c0ab.png",
+    "static/media/slide7.png": "/static/media/slide7.1d5269c4cbf973470765.png",
+    "static/media/slide1.png": "/static/media/slide1.10b8889e291a2bbdf63c.png",
+    "static/media/slide11.png": "/static/media/slide11.bb05e5ad90f5393dff82.png",
+    "static/media/slide8.png": "/static/media/slide8.d5b4d7a2232266016fc5.png",
+    "static/media/roadmap.png": "/static/media/roadmap.ff0dd0ef6d8979038c27.png",
+    "static/media/slide12.png": "/static/media/slide12.6af40f876e7e54215517.png",
+    "static/media/slide14.png": "/static/media/slide14.4df3f74e6251919f3de2.png",
+    "static/media/slide5.png": "/static/media/slide5.10fe8768f45886097dbb.png",
+    "static/media/slide10.png": "/static/media/slide10.454748c2a7ade3eed2d8.png",
+    "static/media/lab.png": "/static/media/lab.e1c0513513ff4a3baf69.png",
+    "static/media/slide9.png": "/static/media/slide9.92affd9ff2dbae04a503.png",
+    "static/media/slide6.png": "/static/media/slide6.54850f84b26e92aa1ca9.png",
+    "static/media/slide13.png": "/static/media/slide13.59697fecb8eda7326ab4.png",
+    "static/media/slide2.png": "/static/media/slide2.e46aace76a07491885e1.png",
+    "static/media/team24.png": "/static/media/team24.cc64b0a431ed0d1141b4.png",
+    "static/media/team1.png": "/static/media/team1.dbcd869d484f401895ec.png",
+    "static/media/team23.png": "/static/media/team23.ca1017f41161821aa32a.png",
+    "static/media/team22.png": "/static/media/team22.7c7865ceca405acd8c74.png",
+    "static/media/team2.png": "/static/media/team2.92c970721f25c4c70e1f.png",
+    "static/media/team21.png": "/static/media/team21.fa36ac2f615746e38d27.png",
+    "static/media/team32.png": "/static/media/team32.6cd0e2d7e69c2581dfea.png",
+    "static/media/team33.png": "/static/media/team33.870da2cecdd20d0e03b9.png",
+    "static/media/team31.png": "/static/media/team31.dca64bac0866e4743dfb.png",
+    "index.html": "/index.html",
+    "main.ab05b7e5.css.map": "/static/css/main.ab05b7e5.css.map",
+    "main.4ef2b6c2.js.map": "/static/js/main.4ef2b6c2.js.map",
+    "787.962c3fdf.chunk.js.map": "/static/js/787.962c3fdf.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab05b7e5.css",
+    "static/js/main.4ef2b6c2.js"
+  ]
+}
